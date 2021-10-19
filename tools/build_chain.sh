@@ -1,6 +1,6 @@
 #!/bin/bash
 
-set -e
+set -e	//若指令传回值不等于0，则立即退出shell。
 
 # default value
 ca_path= #CA key
